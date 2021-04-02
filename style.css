@@ -30,3 +30,34 @@
 .header {
     color: #d3046f;
     }
+
+.btn-pink {
+    background-color: #d3046f;
+    border-color: #d3046f;
+    
+}
+
+.btn-pink:hover {
+    background-color: #9e0956;
+    border-color: #9e0956;
+}
+
+.btn.btn-pink:active {
+    background-color: #9e0956;
+    border-color: #9e0956;
+    background: #9e0956!important;
+    box-shadow: none!important;
+    outline: #d3046f!important;
+}
+
+.btn.btn-pink:focus {
+    background-color: #9e0956;
+    border-color: #9e0956;
+    background: #9e0956!important;
+    box-shadow: none!important;
+    outline: #d3046f!important;
+}
+
+p {
+    font-size: 1.3em;
+}

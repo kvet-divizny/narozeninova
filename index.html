@@ -2,13 +2,23 @@
 
 <html lang="en">
 <head>
-    <!-- Latest compiled and minified CSS -->
+     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
     <link rel="stylesheet" href = "style.css">
     <meta charset="utf-8">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" style="position: relative;">
+<body data-spy="scroll" data-target=".navbar" style="position: relative;" data-offset="5">
 
 
 <div class="jumbotron bg-image">
@@ -29,9 +39,14 @@
     </ul>
 </nav>
 
-<div id = "hi" class = "container-fluid bg-3 px-5">
-    <div class="container-md row flex-md-row-reverse">
-        <div class="col-lg-7 lead m-3">
+<div class="mx-auto">
+
+    <div id = "hi" class = "container-fluid bg-3 px-5 mx-auto">
+    
+    <div class="col-lg-8 mx-auto">
+
+    <div class="container-md row flex-md-row-reverse align-items-end">
+        <div class="col-lg-7 m-3">
             <h3>Milá Lucinko,</h3>
             <p>
                 pokud tohle čteš, znamená to, že jsi dostala balíček, ale asi tak úplně nevíš, co s některými dárky provést. Anebo víš, ale jsi jen zvědavá, co má být tohle zač. Na téhle stránce se dozvíš, jak zprovoznit a nainstalovat hry, které jsi dostala. Dál než za instalaci už ti neporadím, protože jsem je sám nikdy nehrál. Ale na to už přijdeš bez problémů sama :)
@@ -41,11 +56,13 @@
             <img class="img-fluid mx-auto d-block" src="https://webstockreview.net/images/books-clipart-birthday-11.png" style="max-height: 280px;"/>
         </div>
     </div>
+    </div>
 </div>
 
 <div id = "reg" class="container-fluid bg-2 px-5">
     <div class="row">
-        <div class="col-lg-5">
+        <div class="col-lg-8 mx-auto" style="background-image: url('img/rain.png'); background-repeat: repear-y;">
+            <div class="col-lg-9">
             <h2>Tak tedy jak na to...</h2>
             <p>
                 Na obě hry budeš potřebovat program jménem Steam. Možná už ho i znáš. Na počítači bys ho měla mít nainstalovaný, Ze všeho nejdřív si ale budeš muset vytvořit účet. K tomu budeš potřebovat e-mail a taky maminku &ndash; jestli ji u sebe nemáš, rovnou ji utíkej sehnat!
@@ -57,7 +74,7 @@
                         Účet si můžeš vytvořit ne webu Steamu. Jednoduše klikni na tlačítko dole a vyplň e-mailovou adresu do patřičných kolonek.
                     </p>
             
-                    <a href="https://store.steampowered.com/join/?&snr=1_60_4__62" target="_blank" role="button" class="btn btn-primary mb-2 ml-3">Vytvořit účet</a>
+                    <a href="https://store.steampowered.com/join/?&snr=1_60_4__62" target="_blank" role="button" class="btn btn-lg btn-primary btn-pink mb-2 ml-3">Vytvořit účet</a>
                     <p class="text-muted">
                         Budeš muset potvrdit, že nejsi robot a že jsi starší 13 let. To první ti snad uvěří, to druhé za tebe může odkliknout mamka, ať nemáš černé svědomí :)
                     </p>
@@ -88,20 +105,22 @@
                     </div>
                 </li>
             </ol>
-            <p class="lead m-5">
-                <strong>A je to, účet máš vytvořený! Teď ještě přidat samotné hry.</strong>
+            <p class="mt-5 mb-5 m-1">
+               A je to, účet máš vytvořený! Teď ještě přidat samotné hry.
             </p>
     </div>
-        <div class="col-lg-4" style="background-image: url('img/rain.png'); background-repeat: repear-y;">
-            
         </div>
+        <!-- <div class="col-lg-4" style="background-image: url('img/rain.png'); background-repeat: repear-y;">
+            
+        </div> -->
     </div>
 
 </div>
 
 <div id = "down" class="container-fluid bg-3 px-5">
-    <div class="row flex-md-row-reverse container-md d-flex flex-wrap align-items-center">
-        <div class="col-lg-7">
+    <div class="col-lg-8 mx-auto">
+    <div class="row container-md d-flex flex-wrap align-items-end">
+        <div class="col-lg-9">
             <h3>Jak si hry stáhneš?</h3>
             <p>
                 Obě hry si teď můžeš ve Steamu aktivovat a stáhnout. Přes Steam je také budeš pokaždé spouštět.
@@ -109,12 +128,35 @@
             <p>
                 Jak to provést se můžeš podívat na videu níže. Asi si ho budeš chtít zvětšit na celou obrazovku, abys na něj pořádně viděla :)
             </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/TQ5v3ZLnyyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                Pro stažení budeš potřebovat aktivační kódy. To je ta změť písmenek a číslic, kterou máš napsanou na přání. Abys je nemusela celé opisovat, přidal jsem je i sem &ndash; zobrazíš si je tlačítkem dole. Ale protože je tahle stránka veřejná, nechci je sem dávat celé. Posledních pět znaků budeš muset opsat z papírku.
+            </p>
+            <div>
+            <button data-toggle="collapse" class="btn btn-lg btn-primary btn-pink" data-target="#codes">Zobrazit kódy</button>
+            <div id="codes" class="collapse m-3" style="border: 1px solid antiquewhite; border-radius: 15px; background-color:antiquewhite; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <div class="row p-3">
+                    <div class="col-6">
+                        <p><strong>Chuchel</strong></p>
+                        <p>XXXX-XXXX-XXXX</p>
+                    </div>
+                    <div class="col-6">
+                        <p><strong>Zoo Tycoon</strong></p>
+                        <p>XXXX-XXXX-XXXX</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+            <iframe class="mb-5 mt-5" width="560" height="315" src="https://www.youtube.com/embed/TQ5v3ZLnyyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-lg-5">
-            <img class="img-fluid mx-auto d-block m-4" src="img/dog.png" style="max-height: 280px;"/>
+        <div class="col-lg-3">
+            <img class="img-fluid mx-auto d-block mb-5" src="img/dog.png" style="max-height: 280px;"/>
         </div>
     </div>
+</div>
+</div>
 </div>
 
 </body>
